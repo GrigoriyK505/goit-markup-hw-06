@@ -49,7 +49,7 @@ body {
     font-style: normal;
 }
 
-.contacts:hover, .contacts {
+.contacts:hover, .contacts:focus {
     color: #404bbf
 }
 
