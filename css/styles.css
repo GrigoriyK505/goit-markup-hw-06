@@ -78,7 +78,7 @@ body {
     background-color: #404BBF;
 }
 
-.tittle-dva {
+.title-dva {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
@@ -102,6 +102,10 @@ body {
 
 .title-tre {
     color: #2e2f42;
+    letter-spacing: 0.02em;
+    line-height: 1.2;
+    font-size: 20px;
+    font-weight: 500;
 }
 
 .parag-tre {
