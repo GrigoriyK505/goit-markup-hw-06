@@ -1,6 +1,7 @@
 body {
     font-family: "Roboto", sans-serif;
     background: #fff;
+    color: #434455;
 }
 
 .logot {
@@ -13,7 +14,7 @@ body {
     color: #4d5ae5;
 }
 
-.logo1 { 
+.logo-one { 
     line-height:1.17;
     color: #2e2f42;
 }
@@ -53,12 +54,17 @@ body {
     color: #404bbf
 }
 
-.tittle {
+.sec-one {
+    background-color: #2e2f42
+}
+
+.title {
     font-weight: 700;
     font-size: 56px;
     line-height: 1.07;
     letter-spacing: 0.02em;
     text-align: center;
+    color:#ffffff;
 }
 
 .butka {
@@ -86,11 +92,11 @@ body {
     text-transform: capitalize;
 }
 
-.parag {
+.parag-dva {
     color: #434455;
     font-weight: 400;
     font-size: 16px;
-    line-height: 24px;
+    line-height: 1.5;
     letter-spacing: 0.02em;
 }
 
@@ -107,6 +113,10 @@ body {
     background-color: #FFFFFF;
 }
 
+.link-one {
+    background-color: #FFFFFF;
+}
+
 .parag-tre {
     font-size: 16px;
     line-height: 1.5;
@@ -120,6 +130,12 @@ body {
     letter-spacing: 0.02em;
     color: #434455;
 }
+
+.logo-dva {
+    color: #f4f4fd;
+    line-height: 1.17;
+    color: #2e2f42;
+}
 .back {
     background-color: #2e2f42;
 }
@@ -130,10 +146,4 @@ a {
 
 li {
     list-style-type: none;
-}
-
-.logo2 {
-    color: #f4f4fd;
-    line-height: 1.17;
-    color: #2e2f42;
 }
