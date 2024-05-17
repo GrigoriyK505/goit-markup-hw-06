@@ -32,12 +32,14 @@ body {
 
 .address {
     font-style: normal;
+    color: #434455;
 }
 
 .contacts {
     line-height: 1.5;
     color: #434455;
     letter-spacing: 0.02em;
+    font-style: normal;
 }
 
 .contacts:hover, .contacts {
@@ -48,12 +50,12 @@ body {
     color: #2e2f42;
 }
 
-.pipcka {
+.back {
     background: #2e2f42;
     color: #fff;
 }
 
-.pipcka-in {
+.tittle {
     font-weight: 700;
     font-size: 56px;
     line-height: 1.07;
@@ -76,20 +78,21 @@ body {
     background-color: #404BBF;
 }
 
+.tittle-2 {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 40px;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #2e2f42;
+}
+
 a {
     text-decoration: none;
 }
 
 li {
     list-style-type: none;
-}
-
-h1 {
-    font-weight: 700;
-    font-size: 56px;
-    line-height: 60px;
-    letter-spacing: 0.02em;
-    text-align: center;
 }
 
 .logot {
