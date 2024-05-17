@@ -15,7 +15,8 @@ body {
 }
 
 .logo { 
-    line-height:1.17
+    line-height:1.17;
+    color: #2e2f42;
 }
 
 .link {
@@ -107,6 +108,7 @@ body {
 .title-tre {
     background-color: #FFFFFF;
 }
+
 
 a {
     text-decoration: none;
