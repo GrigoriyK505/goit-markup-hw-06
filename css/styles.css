@@ -4,6 +4,34 @@ body {
     color: #434455;
 }
 
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+h1, h2, h3, p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+ul, li {
+    padding-left: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.container-one {
+    border-bottom: 1px solid #e7e9fc;
+    width: 1440px;
+    height: 72px;
+}
+
+.container-two {
+    width: 1440px;
+    height: 600px;
+}
+
 .logot-one {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
@@ -12,6 +40,7 @@ body {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
+    padding: 24px 0px 24px 0px;
 }
 
 .logo-one { 
