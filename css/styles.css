@@ -112,13 +112,13 @@ ul, li {
 }
 
 .sec-one {
-    background-color: #2e2f42
+    background-color: #2e2f42;
+    padding: 188px 0;
 }
 
 .button-container {
     display: flex;
     align-items: center;
-    padding: 188px 0;
 }
 
 .title {
@@ -151,6 +151,10 @@ ul, li {
     background-color: #404BBF;
 }
 
+.sec-two {
+    padding: 120px 0;
+}
+
 .title-dva {
     font-weight: 700;
     font-size: 36px;
@@ -159,6 +163,7 @@ ul, li {
     text-align: center;
     color: #2e2f42;
     text-transform: capitalize;
+    visibility: hidden;
 }
 
 .parag-dva {
@@ -167,6 +172,16 @@ ul, li {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+
+}
+
+.list-features {
+    display: flex;
+    gap: 24px;
+}
+
+.item-features {
+    width: calc((100%-72px)/4);
 }
 
 .team-sec {
@@ -180,6 +195,7 @@ ul, li {
     font-size: 20px;
     font-weight: 500;
     background-color: #FFFFFF;
+    margin-bottom: 8px;
 }
 
 .link-one {
