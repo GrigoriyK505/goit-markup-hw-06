@@ -161,7 +161,7 @@ ul, li {
 } 
 
 .visually-hidden {
-    visibility: hidden;
+    overflow: hidden;
 }
 
 .parag-dva {
