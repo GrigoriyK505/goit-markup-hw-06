@@ -113,12 +113,12 @@ ul, li {
 
 .sec-one {
     background-color: #2e2f42
-    padding: 188px 0;
 }
 
 .button-container {
     display: flex;
     align-items: center;
+    padding: 188px 0;
 }
 
 .title {
