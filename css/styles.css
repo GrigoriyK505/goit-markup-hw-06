@@ -10,6 +10,10 @@ body {
     box-sizing: border-box;
 }
 
+img {
+    display: block;
+}
+
 h1, h2, h3, p {
     margin-top: 0;
     margin-bottom: 0;
@@ -26,7 +30,7 @@ ul, li {
 }
 
 .container {
-    width: 1128px;
+    width: 1158px;
     padding: 0 15px;
     margin: 0 auto;
 }
@@ -114,6 +118,7 @@ ul, li {
 .button-container {
     display: flex;
     align-items: center;
+    padding: 188px 0;
 }
 
 .title {
