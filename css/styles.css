@@ -16,23 +16,32 @@ h1, h2, h3, p {
 }
 
 ul, li {
-    padding-left: 0;
-    margin-top: 0;
-    margin-bottom: 0;
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
 }
 
-.container-one {
+.header {
     border-bottom: 1px solid #e7e9fc;
-    width: 1440px;
-    height: 72px;
 }
 
-.container-two {
-    width: 1440px;
-    height: 600px;
+.container {
+    width: 1128px;
+    padding: 0 15px;
+    margin: 0 auto;
 }
 
-.logot-one {
+.header-container {
+    display: flex;
+    align-items: center;
+}
+
+.navigation {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
@@ -40,12 +49,17 @@ ul, li {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
-    padding: 24px 0px 24px 0px;
+    margin-right: 76px;
+
 }
 
-.logo-one { 
-    line-height:1.17;
+.logo-part { 
     color: #2e2f42;
+}
+
+.nav-list {
+    display: flex;
+    gap: 40px;
 }
 
 .link {
@@ -53,7 +67,10 @@ ul, li {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #2e2f42
+    color: #2e2f42;
+    padding: 24px 0;
+    display: block;
+
 }
 
 .link:hover, .link:focus {
@@ -62,6 +79,13 @@ ul, li {
 
 .address {
     font-style: normal;
+    margin: auto;
+}
+
+.address-list {
+    display: flex;
+    gap: 40px;
+
 }
 
 .team {
@@ -87,16 +111,24 @@ ul, li {
     background-color: #2e2f42
 }
 
+.button-container {
+    display: flex;
+    align-items: center;
+}
+
 .title {
+    weight: 496px;
     font-weight: 700;
     font-size: 56px;
     line-height: 1.07;
     letter-spacing: 0.02em;
     text-align: center;
     color:#ffffff;
+    margin: 188px 0;
+    max-width: 496px;
 }
 
-.butka {
+.button {
     font-family: "Roboto", sans-serif;
     background: #4d5ae5;
     font-weight: 500;
@@ -105,9 +137,14 @@ ul, li {
     letter-spacing: 0.04em;
     color: #fff;
     cursor: pointer;
+    border: none;
+    border-radius: 4px;
+    padding: 16px 32px;
+    min-width: 169px;
+    margin: 48px 188px;
 }
 
-.butka:hover, .butka:focus {
+.button:hover, .button:focus {
     background-color: #404BBF;
 }
 
@@ -164,16 +201,6 @@ ul, li {
     color: #f4f4fd;
 }
 
-.logot-dva {
-    font-family: "Raleway", sans-serif;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 1.17;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color: #4d5ae5;
-}
-
 .parag-f {
     line-height: 1.5;
     color: #F4F4FD;
@@ -186,8 +213,4 @@ ul, li {
 
 a {
     text-decoration: none;
-}
-
-li {
-    list-style-type: none;
 }
