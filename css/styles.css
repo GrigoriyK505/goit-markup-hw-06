@@ -83,7 +83,7 @@ ul, li {
 
 .address {
     font-style: normal;
-    margin: auto;
+    margin-left: auto;
 }
 
 .address-list {
@@ -114,10 +114,6 @@ ul, li {
 .sec-one {
     background-color: #2e2f42;
     padding: 188px 0;
-}
-
-.button-container {
-    
 }
 
 .title {
@@ -208,7 +204,7 @@ ul, li {
 }
 
 .item-features {
-    width: calc((100%-72px)/4);
+    width: calc((100% - 72px) / 4);
 }
 
 .sec-three {
@@ -218,6 +214,11 @@ ul, li {
 }
 
 .title-two {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11111;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
     margin-bottom: 72px;
     text-align: center;
 }
@@ -243,7 +244,6 @@ ul, li {
     background-color: #FFFFFF;
     width: calc((100% - 72px) / 4);
     border-radius: 0 0 4px 4px;
-    padding: 0px 0px 32px 0px;
 }
 
 .text{
