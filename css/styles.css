@@ -74,11 +74,29 @@ ul, li {
     color: #2e2f42;
     padding: 24px 0;
     display: block;
-
+    position: relative;
+    cursor: pointer;
 }
 
 .link:hover, .link:focus {
     color: #404bbf;
+}
+
+.link:hover:after,
+.link:focus:after {
+    width: 100%;
+}
+
+.link::after {
+    display: block;
+    position: absolute;
+    left: 0;
+    width: 0;
+    height: 4px;
+    border-radius: 2px;
+    background-color: #404bbf;
+    content: "";
+    transition: width 0.3s ease-out;
 }
 
 .address {
@@ -112,8 +130,13 @@ ul, li {
 }
 
 .sec-one {
+    display: flex;
     background-color: #2e2f42;
     padding: 188px 0;
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 
 .title {
