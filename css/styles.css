@@ -435,6 +435,10 @@ ul, li {
     background-color: #31d0aa;
 }
 
+.icon-icon {
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
 .back {
     background-color: #2e2f42;
     padding-top: 100px;
