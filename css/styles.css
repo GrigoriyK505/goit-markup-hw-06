@@ -408,6 +408,25 @@ ul, li {
     max-width: 264px;
 }
 
+.foot-block {
+    display: flex;
+    align-items: baseline;
+    margin-right: 120px;
+}
+
+.div-parag {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #fff;
+}
+
+.ulfoot-icons {
+    display: flex;
+    gap: 16px;
+}
+
 .back {
     background-color: #2e2f42;
     padding-top: 100px;
