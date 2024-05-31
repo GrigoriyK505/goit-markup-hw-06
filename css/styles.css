@@ -349,7 +349,7 @@ ul, li {
         0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
-.part-list .img-parag:hover {
+.part-list:hover .img-parag {
     transform: translateY(0%);
 }
 
