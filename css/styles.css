@@ -415,7 +415,6 @@ ul, li {
 
 .logo-block {
     margin-right: 120px;
-    
 }
 
 .div-parag {
@@ -430,6 +429,10 @@ ul, li {
 .ulfoot-icons {
     display: flex;
     gap: 16px;
+}
+
+.link-icon:hover, .link-icon:focus {
+    background-color: #31d0aa;
 }
 
 .back {
