@@ -53,6 +53,7 @@ ul, li {
     left: 50%;
     width: 408px;
     min-height: 584px;
+    transform: translate(-50%, -50%);
     box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.14), 0 1px 3px 0 rgba(0, 0, 0, 0.12), 0 2px 1px 0 rgba(0, 0, 0, 0.2);
     background: #fcfcfc;
     display: flex;
@@ -103,32 +104,49 @@ ul, li {
     margin-bottom: 16px;
 }
 
-.form-modal {
-    border-radius: 4px;
-    display: flex;
-    flex-direction: column;
-    gap: 8px;
-    margin-top: 16px;
-    margin-bottom: 16px;
-    font-weight: 400;
-    font-size: 12px;
-    line-height: 1.16667;
-    letter-spacing: 0.04em;
-    color: #8e8f99;
-}
 .form-label {
-    display: flex;
-    flex-direction: column;
+    display: block;
+    line-height: 1.17;
+    display: block;
+    margin-bottom: 4px;
+    font-size: 12px;
+    color: #8e8f99;
 }
 
 .div-label {
     margin-bottom: 8px;
 }
 
+.form-icon {
+    position: relative;
+}
+
 .input-modal {
+    width: 100%;
+    height: 40px;
     margin-top: 4px;
     border: 1px solid rgba(46, 47, 66, 0.4);
-    transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    border-radius: 4px;
+    background-color: transparent;
+    padding-left: 38px;
+    outline: transparent;
+    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.input-modal:focus {
+    border-color: #4D5AE5;
+}
+
+.form-svg {
+    position: absolute;
+    left: 16px;
+    top: 50%;
+    transform: translateY(-50%);
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.form-svg:focus {
+    fill: #4D5AE5;
 }
 
 .form-checkbox {
