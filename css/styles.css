@@ -654,6 +654,23 @@ ul, li {
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.div-form {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    gap: 24px;
+    justify-content: center;
+}
+
+.p-form {
+    margin-bottom: 16px;
+    font-weight: 500;
+    font-size: 16px; 
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #fff;
+}
+
 .form-foot {
     display: flex;
     flex-direction: column;
@@ -680,6 +697,7 @@ ul, li {
     letter-spacing: 0.04em;
     color: #fff;
     background: none;
+    width: 264px;
     height: 40px;
 }
 
@@ -699,14 +717,7 @@ ul, li {
     padding: 8px 24px;
 }
 
-.div-form {
-    display: flex;
-    align-items: center;
-    margin-left: auto;
-    gap: 24px;
-    justify-content: center;
 
-}
 
 .back {
     background-color: #2e2f42;
