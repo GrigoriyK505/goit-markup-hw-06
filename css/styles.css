@@ -150,6 +150,10 @@ ul, li {
     fill: #4D5AE5;
 }
 
+.div-textarea {
+    margin-bottom: 16px;
+}
+
 .textarea {
     width: 100%;
     height: 120px;
@@ -157,7 +161,7 @@ ul, li {
     border-radius: 4px;
     font-weight: 400;
     font-size: 12px;
-    line-height: 1.16667;
+    line-height: 1.17;
     letter-spacing: 0.04em;
     color: rgba(46, 47, 66, 0.4);
     background-color: transparent;
@@ -178,9 +182,10 @@ ul, li {
 .form-checkbox {
     font-weight: 400;
     font-size: 12px;
-    line-height: 1.16667;
+    line-height: 1.17;
     letter-spacing: 0.04em;
     color: #8e8f99;
+
 }
 
 .checkbox-span {
@@ -193,6 +198,16 @@ ul, li {
     align-items: center;
     justify-content: center;
     fill: transparent;
+}
+
+.svg-modal:checked {
+    background-color: #404bbf;
+    border: none;
+    fill: #F4F4FD;
+}
+
+.link-modal {
+    color: #4d5ae5;
 }
 
 .button-modal {
