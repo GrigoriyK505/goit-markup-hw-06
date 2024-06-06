@@ -434,7 +434,7 @@
                     </div>
                 </div>
                 <div class="div-label">
-                    <label class="form-label">
+                    <label class="form-label" for="email">
                         Email
                     </label>
                     <div class="form-icon">
@@ -444,19 +444,27 @@
                         </svg>
                     </div>
                 </div>
-                <div class="">
-                    <label class="form-label">
+                <div class="div-label">
+                    <label class="form-label" for="user-comment">
                         Comment 
                     </label>
                     <div>
-                        <textarea class="input-modal" name="comment" rows="5" placeholder="Text input"></textarea>
+                        <textarea class="textarea" name="user-comment" id="user-comment" rows="5" placeholder="Text input"></textarea>
                     </div>
                 </div>
-                
+                <div class="div-checkbox">
+                    <input type="checkbox" id="user-privacy" name="user-privacy" value="true" class="visually-hidden" ><span class="main-span">
+                    <label class="form-checkbox" for="user-privacy">I accept the terms and conditions of the
+                        <span class="checkbox-span">
+                            <svg>
+                                <use href="./images/icons.svg#icon-Checkbox"></use>
+                            </svg>
+                        </span>
+                        <a href="">Privacy Policy</a>
+                    </label>
+                </div>
             </form>
-            <label class="form-checkbox">
-                <input type="checkbox" name="" class="box-form"><span class="main-span">I accept the terms and conditions of the</span><span class="checkbox-span">Privacy Policy</span>
-            </label>
+            
             <button type="submit" class="button-modal">Send</button>
         </div>
     </div>
