@@ -345,8 +345,6 @@
         </section>
     </main>
 
-    
-
     <footer class="back">
         <div class="container foot-block">
             <div class="logo-block">
@@ -403,31 +401,34 @@
             </div>
         </div>    
     </footer>
+
     <div class="modal-overlay is-open">
         <div class="modal">
             <button type="button" class="div-button">
-                <svg width="8" height="8">
+                <svg width="8" height="8" class="button-svg">
                     <use href="./images/icons.svg#icon-close"></use>
                 </svg>
             </button>
             <p class="parag-modal">Leave your contacts and we will call you back</p>
             <form class="form-modal">
-                <label class="form-label">
-                    Name
-                    <input type="text" name="name" class="input-modal">
-                </label>
-                <label class="form-label">
-                    Phone
-                    <input type="tel" name="phone" class="input-modal">
-                </label>
-                <label class="form-label">
-                    Email
-                    <input type="email" name="email" class="input-modal">
-                </label>
-                <label class="form-label">
-                    Comment
-                    <textarea class="input-modal" name="comment" rows="5" placeholder="Text input"></textarea>
-                </label>
+                <div class="div-label">
+                    <label class="form-label">
+                        Name
+                        <input type="text" name="name" class="input-modal">
+                    </label>
+                    <label class="form-label">
+                        Phone
+                        <input type="tel" name="phone" class="input-modal">
+                    </label>
+                    <label class="form-label">
+                        Email
+                        <input type="email" name="email" class="input-modal">
+                    </label>
+                    <label class="form-label">
+                        Comment
+                        <textarea class="input-modal" name="comment" rows="5" placeholder="Text input"></textarea>
+                    </label>
+                </div>
             </form>
             <label class="form-checkbox">
                 <input type="checkbox" name="" class="box-form"><span class="main-span">I accept the terms and conditions of the</span><span class="checkbox-span">Privacy Policy</span>
