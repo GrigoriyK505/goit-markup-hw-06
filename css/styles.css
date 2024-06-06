@@ -146,7 +146,7 @@ ul, li {
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.input-modal .form-svg {
+.input-modal:focus .form-svg {
     fill: #4D5AE5;
 }
 
@@ -498,7 +498,7 @@ ul, li {
     box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
 }
 
-.text{
+.text {
     padding-top: 32px;
     padding-bottom: 32px;
 }
