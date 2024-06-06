@@ -200,7 +200,7 @@ ul, li {
     fill: transparent;
 }
 
-.svg-modal:checked {
+.svg-modal:checked .checkbox-span {
     background-color: #404bbf;
     border: none;
     fill: #F4F4FD;
@@ -211,18 +211,23 @@ ul, li {
 }
 
 .button-modal {
+    display: block;
+    min-width: 169px;
+    height: 56px;
+    font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
     text-align: center;
     color: #fff;
-    border-radius: 4px;
-    padding: 16px 32px;
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
-    background: #4d5ae5;
     margin-left: auto;
     margin-right: auto;
+    background: #4d5ae5;
+    cursor: pointer;
+    border: none;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .header {
