@@ -549,15 +549,6 @@ ul, li {
     transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.part-list:hover .img-parag {
-    transform: translateY(0%);
-}
-
-.div-img {
-    position: relative;
-    overflow: hidden;
-}
-
 .img-parag {
     position: absolute;
     top: 0;
@@ -574,11 +565,22 @@ ul, li {
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.part-list:hover .img-parag {
+    transform: translateY(0%);
+}
+
 .part-list:hover {
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
         0px 1px 1px rgba(46, 47, 66, 0.16),
         0px 2px 1px rgba(46, 47, 66, 0.08);
 }
+
+.div-img {
+    position: relative;
+    overflow: hidden;
+}
+
+
 
 .parag-chet {
     font-size: 16px;
